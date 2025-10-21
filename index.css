@@ -1,0 +1,168 @@
+/* Paleta: preto e azul escuro */
+body {
+  background-color: #0b0c10;
+  color: #dcdcdc;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+  color: #1e90ff; /* azul suave e elegante */
+}
+
+/* Seção hero */
+#hero {
+  height: 100vh;
+  background: linear-gradient(to bottom, #000000, #0b1a33);
+}
+#hero h1 {
+  color: #1e90ff;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(30, 144, 255, 0.7);
+  animation: brilho-aurora 3s ease-in-out infinite alternate;
+}
+
+@keyframes brilho-aurora {
+  from {
+    text-shadow:
+      0 0 10px rgba(30, 144, 255, 0.6),
+      0 0 20px rgba(30, 144, 255, 0.4),
+      0 0 40px rgba(30, 144, 255, 0.2);
+  }
+  to {
+    text-shadow:
+      0 0 20px rgba(30, 144, 255, 0.8),
+      0 0 40px rgba(30, 144, 255, 0.6),
+      0 0 60px rgba(30, 144, 255, 0.4);
+  }
+}
+
+
+
+/* Cards e seções */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 102, 255, 0.3);
+}
+
+/* Rodapé */
+footer {
+  background-color: #000000;
+}
+
+/* Ajuste responsivo */
+@media (max-width: 768px) {
+  #hero img {
+    max-height: 250px;
+  }
+}
+
+/* --- EQUIPE --- */
+#equipe {
+  background: linear-gradient(to bottom, #000000, #0b1a33);
+  border-radius: 10px;
+}
+
+/* Foto grande da equipe */
+.equipe-foto-grupo {
+  max-width: 80%;
+  border: 2px solid #1e90ff;
+  border-radius: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.equipe-foto-grupo:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(30, 144, 255, 0.5);
+}
+
+/* Cards individuais */
+#equipe .card {
+  background-color: #0d1b2a;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(30, 144, 255, 0.2);
+}
+
+#equipe .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(30, 144, 255, 0.3);
+}
+
+/* Imagens dos membros */
+#equipe .card-img-top {
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 2px solid #1e90ff;
+}
+
+#equipe .row {
+  justify-content: center;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(30, 144, 255, 0.3);
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: #dcdcdc !important;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #1e90ff !important;
+  transform: scale(1.05);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+.titulo-brilhante {
+  color: #1e90ff !important;
+  text-shadow: 
+    0 0 6px rgba(30, 144, 255, 0.6),
+    0 0 12px rgba(30, 144, 255, 0.4),
+    0 0 18px rgba(30, 144, 255, 0.2);
+  animation: brilho-suave 3s ease-in-out infinite alternate;
+  transition: transform 0.3s ease;
+}
+
+.titulo-brilhante:hover {
+  transform: scale(1.05);
+  text-shadow:
+    0 0 10px rgba(30, 144, 255, 0.9),
+    0 0 20px rgba(30, 144, 255, 0.7),
+    0 0 40px rgba(30, 144, 255, 0.5);
+}
+
+@keyframes brilho-suave {
+  from {
+    text-shadow:
+      0 0 5px rgba(30, 144, 255, 0.5),
+      0 0 10px rgba(30, 144, 255, 0.3),
+      0 0 15px rgba(30, 144, 255, 0.1);
+  }
+  to {
+    text-shadow:
+      0 0 10px rgba(30, 144, 255, 0.8),
+      0 0 20px rgba(30, 144, 255, 0.5),
+      0 0 30px rgba(30, 144, 255, 0.3);
+  }
+}
