@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Canhão de Batatas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="Index.css">
+  <link rel="icon" href="logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="logo.png">
+
+</head>
+<body>
+<header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+  <div class="container d-flex align-items-center">
+    <a class="navbar-brand d-flex align-items-center fw-bold text-primary titulo-brilhante" href="#hero" data-bs-toggle="modal" data-bs-target="#imagemModal">
+      <img src="logo.png" alt="Logo" class="rounded-circle me-2" style="width: 50px; height: 50px; cursor: pointer;">
+      Projeto Canhão de Batatas
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#hero">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="#sobre">Confecção</a></li>
+        <li class="nav-item"><a class="nav-link" href="#topicos">Ciência</a></li>
+        <li class="nav-item"><a class="nav-link" href="#equipe">Equipe</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<!-- Modal -->
+<div class="modal fade" id="imagemModal" tabindex="-1" aria-labelledby="imagemModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-dark">
+      <div class="modal-body text-center">
+        <img src="logo.png" alt="Logo Ampliado" class="img-fluid rounded">
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <section id="hero" class="text-center text-light d-flex flex-column justify-content-center align-items-center">
+    <img src="projeto.jpg" alt="Imagem do Projeto" class="img-fluid rounded shadow mb-4" style="max-height: 300px;">
+    <h1 class="display-4 fw-bold">Projeto Canhão de Batatas</h1>
+    <p class="lead">Resumo do que se trata o projeto.</p>
+  </section>
+  <section id="sobre" class="container text-light py-5">
+    <h2 class="text-center mb-4">Confecção do Projeto</h2>
+    <p class="fs-5 text-center">
+      O Projeto Canhão de Batatas foi feito...
+    </p>
+  </section>
+
+  <section id="topicos" class="container text-light py-5">
+    <h2 class="text-center mb-5">A Ciência por trás de tudo</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-light border-0 shadow-lg h-100">
+          <div class="card-body">
+            <h3 class="card-title text-primary">Ar Comprimido</h3>
+            <p class="card-text">O ar comprimido pode beneficiar o meio ambiente quando usado de forma sustentável, pois é uma fonte de energia limpa que não gera poluentes. Ele é aplicado em processos industriais ecológicos, como limpeza sem produtos químicos e tratamento de esgoto, além de ajudar no armazenamento de energia renovável. Também contribui para reduzir desperdícios e aumentar a eficiência dos sistemas. Porém, esses benefícios dependem do uso de energia limpa na sua produção e de uma boa manutenção dos equipamentos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-light border-0 shadow-lg h-100">
+          <div class="card-body">
+            <h3 class="card-title text-primary">Pneumática</h3>
+            <p class="card-text">A pneumática desempenha um papel fundamental na indústria moderna, oferecendo soluções eficientes, seguras e econômicas para uma ampla gama de aplicações. Ao compreender os conceitos básicos, as vantagens e os componentes essenciais dos sistemas pneumáticos, as empresas podem otimizar seus processos produtivos e garantir um funcionamento mais ágil e preciso. Na BR Mangueiras, estamos prontos para atender às suas necessidades em pneumática, oferecendo uma variedade de produtos de alta qualidade, como mangueiras, conexões e acessórios. Entre em contato conosco para saber mais sobre como podemos ajudar a aprimorar o desempenho do seu sistema pneumático.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-light border-0 shadow-lg h-100">
+          <div class="card-body">
+            <h3 class="card-title text-primary"> Influência do ar comprimido no meio ambiente </h3>
+            <p class="card-text">O ar comprimido pode ser aplicado em diversos setores das indústrias modernas, por ser muito versátil. Com o cuidado adequado e a manutenção regular, o sistema de ar comprimido pode oferecer desempenho excepcional e contribuir em variados processos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section id="equipe" class="container text-light py-5">
+    <h2 class="text-center mb-5">Nossa Equipe</h2>
+
+    <div class="text-center mb-5">
+        <img src="foto-grupo.jpg" alt="Foto da Equipe" class="img-fluid rounded shadow-lg equipe-foto-grupo">
+    </div>
+
+    <div class="row justify-content-center text-center g-4">
+        <div class="col-md-3">
+        <div class="card bg-dark text-light border-0 shadow-lg">
+            <img src="carlos.jpg" class="card-img-top rounded-top" alt="Carlos">
+            <div class="card-body">
+            <h4 class="card-title text-primary">Carlos Eduardo</h4>
+            <p class="card-text">Sobre...</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-3">
+        <div class="card bg-dark text-light border-0 shadow-lg">
+            <img src="gabriel.jpg" class="card-img-top rounded-top" alt="Gabriel">
+            <div class="card-body">
+            <h4 class="card-title text-primary">Gabriel</h4>
+            <p class="card-text">Sou estudante de Mecânica no IF Sudeste MG. No entanto eu quero fazer Direito no futuro</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-3">
+        <div class="card bg-dark text-light border-0 shadow-lg">
+            <img src="maria.jpg" class="card-img-top rounded-top" alt="Maria">
+            <div class="card-body">
+            <h4 class="card-title text-primary">Maria Laura</h4>
+            <p class="card-text">Sou estudante de Informática no IF Sudeste MG. Apesar disso, meu plano é seguir Direito no futuro. Minhas matérias favoritas são Literatura e Biologia.
+            </p>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-3">
+        <div class="card bg-dark text-light border-0 shadow-lg">
+            <img src="mateus.jpg" class="card-img-top rounded-top" alt="Mateus">
+            <div class="card-body">
+            <h4 class="card-title text-primary">Mateus</h4>
+            <p class="card-text">Sou estudante de Mecânica no IF Sudeste MG. No entanto eu quero fazer Medicina no futuro.</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-3">
+        <div class="card bg-dark text-light border-0 shadow-lg">
+            <img src="pedro.jpg" class="card-img-top rounded-top" alt="Pedro">
+            <div class="card-body">
+            <h4 class="card-title text-primary">Pedro Henrique</h4>
+            <p class="card-text">Sou estudante de Mecânica no IF Sudeste MG, dito isso, quero seguir minha carreira como psicólogo.</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-3">
+        <div class="card bg-dark text-light border-0 shadow-lg">
+            <img src="thiagoA.jpg" class="card-img-top rounded-top" alt="Thiago Amaral">
+            <div class="card-body">
+            <h4 class="card-title text-primary">Thiago Amaral</h4>
+            <p class="card-text">Sou estudante de Mecânica no IF Sudeste MG. Meu objetivo será usar o curso técnico para complementar a faculdade de engenharia mecânica.</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-3">
+        <div class="card bg-dark text-light border-0 shadow-lg">
+            <img src="thiagoL.png" class="card-img-top rounded-top" alt="Thiago Lima">
+            <div class="card-body">
+            <h4 class="card-title text-primary">Thiago Lima</h4>
+            <p class="card-text">Sou o Thiago, curso mecânica no IF, busco uma faculdade de engenharia tenho como dos principais hobbys jogar tênis de mesa.</p>
+
+          </div>
+        </div>
+        </div>
+
+        <div class="col-md-3">
+        <div class="card bg-dark text-light border-0 shadow-lg">
+            <img src="diego.jpg" class="card-img-top rounded-top" alt="Diego">
+            <div class="card-body">
+            <h4 class="card-title text-primary">Prof. Diego</h4>
+            <p class="card-text">Possuo graduação em Engenharia Mecânica pelo Centro Universitário do Leste de Minas Gerais e mestrado em Engenharia de Materiais pela Universidade Federal de Itajubá. Atualmente sou professor do IF Sudeste.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+  <footer class="text-center text-light py-4 mt-5 border-top border-primary">
+    <p>© 2025 Projeto Canhão de Batatas — Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

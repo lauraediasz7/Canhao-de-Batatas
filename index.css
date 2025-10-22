@@ -1,4 +1,3 @@
-/* Paleta: preto e azul escuro */
 body {
   background-color: #0b0c10;
   color: #dcdcdc;
@@ -7,10 +6,9 @@ body {
 }
 
 h1, h2, h3, h4 {
-  color: #1e90ff; /* azul suave e elegante */
+  color: #1e90ff; 
 }
 
-/* Seção hero */
 #hero {
   height: 100vh;
   background: linear-gradient(to bottom, #000000, #0b1a33);
@@ -38,9 +36,6 @@ h1, h2, h3, h4 {
   }
 }
 
-
-
-/* Cards e seções */
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -50,25 +45,35 @@ h1, h2, h3, h4 {
   box-shadow: 0 8px 20px rgba(0, 102, 255, 0.3);
 }
 
-/* Rodapé */
+.card {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-body {
+  flex-grow: 1;
+}
+
+.card-text {
+  min-height: 80px;
+}
+
 footer {
   background-color: #000000;
 }
 
-/* Ajuste responsivo */
 @media (max-width: 768px) {
   #hero img {
     max-height: 250px;
   }
 }
 
-/* --- EQUIPE --- */
 #equipe {
   background: linear-gradient(to bottom, #000000, #0b1a33);
   border-radius: 10px;
 }
 
-/* Foto grande da equipe */
 .equipe-foto-grupo {
   max-width: 80%;
   border: 2px solid #1e90ff;
@@ -81,7 +86,6 @@ footer {
   box-shadow: 0 0 25px rgba(30, 144, 255, 0.5);
 }
 
-/* Cards individuais */
 #equipe .card {
   background-color: #0d1b2a;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -93,7 +97,6 @@ footer {
   box-shadow: 0 0 20px rgba(30, 144, 255, 0.3);
 }
 
-/* Imagens dos membros */
 #equipe .card-img-top {
   height: 250px;
   object-fit: cover;
